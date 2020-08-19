@@ -12,16 +12,19 @@ Thực hiện bởi [Nguyễn Mạnh Tiến](https://github.com/manhtieno97/)
 
 ## Hướng dẫn cài đặt test/sử dụng nếu có
 
+**Cài Koala** để biên dịch scss thành css : http://koala-app.com/
 
 ## Kiến thức nắm được
 
-- Thành thục sử dụng HTML và SCSS.
-- Thnahf thục công cụ cắt giao diện.
+ - Thành thục sử dụng HTML và SCSS.
+
+ - Thnahf thục công cụ cắt giao diện.
 
 ## Todo
 
-- Xây dựng các template cho các dự án sau này
+- Xây dựng các template cho các dự án sau này.
 
 ## Credit
 
-- Visual studio code,Koala
+- https://github.com/manhtieno97/nguyenmanhtien
+- http://koala-app.com/
