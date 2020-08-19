@@ -19,6 +19,7 @@ body {
     background: $dark-background;
     color: $while-color;
     padding: 5px 0;
+    font-size: 12pt;
 
     .header-top-left {
         a {
@@ -46,6 +47,7 @@ body {
 
     .header-center {
         padding: 10px 0;
+        font-size: 16px;
 
         .header-center-left {
             margin-top: 20px;
@@ -64,8 +66,7 @@ body {
 
                 .register {
                     color: $color-text;
-                    padding: 5px 10px;
-                    padding-left: 40px;
+                    padding: 5px 15px;
                 }
 
                 .icon {
@@ -135,10 +136,10 @@ body {
 
     .header-nav {
         background: $background-nav;
-
+        font-size: 13pt;
 
         a {
-            padding: 11px 20px;
+            padding: 11px 25px;
             color: $color-text;
 
             &hover {
@@ -183,6 +184,18 @@ body {
             width: 100%;
             color: $while-color;
 
+            h2 {
+                font-size: 22pt;
+            }
+
+            p {
+                font-size: 12pt;
+            }
+
+            a {
+                font-size: 14pt;
+            }
+
             .btn-cat {
                 border: 1px solid $while-color;
                 padding: 8px 20px;
@@ -199,7 +212,7 @@ body {
                 position: absolute;
                 bottom: 15%;
                 left: 10%;
-                font-size: 18px;
+                font-size: 18pt;
                 font-weight: 500;
             }
 
@@ -211,7 +224,7 @@ body {
                     display: inline-block;
                     width: 40px;
                     height: 25px;
-                    
+
                 }
             }
         }
@@ -273,7 +286,7 @@ body {
             .content-pro-title {
                 border: 1px solid $color-text;
                 padding: 10px 25px;
-                font-size: 20px;
+                font-size: 20pt;
                 color: $color-text;
                 background: #fff;
             }
@@ -292,7 +305,14 @@ body {
                     text-align: center;
                     border: 1px solid $color-border;
                     padding: 10px;
-                    ;
+
+                    h4 {
+                        font-size: 15pt;
+                    }
+
+                    span {
+                        font-size: 13pt;
+                    }
                 }
 
                 .item-ove {
@@ -312,7 +332,12 @@ body {
                     text-align: center;
                     width: 100%;
                     display: none;
-                    color: $while-color;
+                    font-size: 16pt;
+
+                    a {
+                        color: $while-color;
+                        font-size: 16pt;
+                    }
                 }
 
             }
@@ -346,6 +371,7 @@ body {
             .forllow {
                 padding: 15px 0;
                 display: inline-block;
+                font-size: 14pt;
             }
 
             .icon-mxh {
@@ -358,6 +384,7 @@ body {
 
         .footer-top-right {
             padding: 10px 0;
+            font-size: 14pt;
 
             .input-email {
                 padding-right: 2px;
@@ -391,10 +418,14 @@ body {
         }
 
         .footer-items {
+            h4 {
+                font-size: 15pt;
+            }
+
             .footer-item {
                 a {
                     color: $color-text;
-
+                    font-size: 13pt;
                 }
             }
 
@@ -404,13 +435,23 @@ body {
         .footer-items-right {
             padding-left: 50px;
 
+            h4 {
+                font-size: 15pt;
+            }
+
             a {
                 color: $color-text;
+                font-size: 13pt;
+            }
+
+            span {
+                font-size: 13pt;
             }
 
             .title-item {
                 display: inline-block;
                 margin-right: 40px;
+
             }
 
             .btn-solo {
@@ -445,6 +486,7 @@ body {
 
     .footer-bottom {
         padding: 30px 0;
+        font-size: 14pt;
 
         .item-one {
             margin-right: 50px;
